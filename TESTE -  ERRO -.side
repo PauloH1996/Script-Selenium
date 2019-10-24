@@ -1,0 +1,96 @@
+{
+  "id": "ca4fe3af-4d15-4e17-a030-f5dc7158effa",
+  "version": "2.0",
+  "name": "TESTE -  ERRO -",
+  "url": "https://docs.google.com",
+  "tests": [{
+    "id": "435272a4-2782-4dcb-b149-b6a81b3222b6",
+    "name": "TESTE - ERRO",
+    "commands": [{
+      "id": "d3089d98-d399-4b98-8aa3-e608176ea2aa",
+      "comment": "",
+      "command": "open",
+      "target": "/forms/d/e/1FAIpQLSe81J6TY-pwxOhPZcsRd4SmWIxqB74NWd4PXZBSYhzAuzHCGQ/viewform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df3513bc-ba75-46bb-acf5-edd29f205361",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb643e68-8d99-4e42-835a-40b5767216bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ace6fce-5fde-4b7c-9875-3a4b93f3670e",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.366340186",
+      "targets": [
+        ["name=entry.366340186", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(1) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.366340186']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "PAULO"
+    }, {
+      "id": "2483a8eb-ef13-4d8a-9527-5ea5ffc3c580",
+      "comment": "",
+      "command": "type",
+      "target": "name=entry.1869733024",
+      "targets": [
+        ["name=entry.1869733024", "name"],
+        ["css=.freebirdFormviewerViewNumberedItemContainer:nth-child(2) .quantumWizTextinputPaperinputInput", "css:finder"],
+        ["xpath=//input[@name='entry.1869733024']", "xpath:attributes"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "paulohenrique_@hotmail.com"
+    }, {
+      "id": "ba2ba214-285f-4c66-86d3-b76642f987b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.freebirdFormviewerViewItemsCheckboxOptionContainer:nth-child(1) .docssharedWizToggleLabeledLabelWrapper",
+      "targets": [
+        ["css=.freebirdFormviewerViewItemsCheckboxOptionContainer:nth-child(1) .docssharedWizToggleLabeledLabelWrapper", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[2]/div[5]/div/div[2]/div/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4acdd2-7a75-4148-871e-28697989f024",
+      "comment": "",
+      "command": "click",
+      "target": "css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonFocusOverlay",
+      "targets": [
+        ["css=.quantumWizButtonPaperbuttonDark > .quantumWizButtonPaperbuttonFocusOverlay", "css:finder"],
+        ["xpath=//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div[3]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8ca9995-1727-44d2-8da9-31283e0f64ac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["435272a4-2782-4dcb-b149-b6a81b3222b6"]
+  }],
+  "urls": ["https://docs.google.com/"],
+  "plugins": []
+}
